@@ -1,0 +1,59 @@
+body {
+    background-image: url("../images/candykingdom.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#header {
+    height: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #E30B5C;
+
+}
+
+#logo {
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+#header-name {
+    color: white;
+    font-weight: bold;
+}
+
+#disclaimer {
+    font-style: italic;
+    font-size: 14px;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#link {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #FF69B4;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#links {
+    text-align: center;
+}
+
+#link:hover {
+    background-color: #E30B5C;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
